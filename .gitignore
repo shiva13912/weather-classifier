@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.env
+venv/
+env/
+
+# Model weights (too large for GitHub — use Git LFS or store separately)
+model/*.pth
+model/*.pt
+
+# Dataset (download from Kaggle separately)
+Weather Dataset/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
